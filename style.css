@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: rgb(168, 202, 202);
+}
+
+.prvi {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+}
+
+.prviLevo {
+    width: 50%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+    background-color: rgb(13, 19, 39);
+    color: white;
+}
+
+.prviLevoLink {
+    width: 360px;
+    height: 20px;
+    align-self: flex-end;
+    margin: 10px;
+    
+}
+.prviLevoTekst {
+    width: 350px;
+    height: 150px;
+    align-self: flex-end;
+    justify-content: flex-start;
+}
+
+.prviDesno {
+    width: 50%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    background-color: rgb(13, 19, 39);
+    color: white;
+}
+
+.prviDesnoLink {
+    width: 360px;
+    height: 20px;
+    margin: 10px;
+    align-self: flex-start;
+    justify-content: flex-end;
+}
+
+.prviDesnoSlika {
+    width: 350px;
+    height: 150px;
+    background-color: gray;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prvi a {
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    font-size: 0.9rem;
+}
+
+button {
+    background-color: rgb(57, 136, 238);
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.drugi {
+    height: 320px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.naslov {
+    display: flex;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ceoDiv {
+    width: 100px;
+    margin: 15px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.sviKvadrati {
+    width: 1000px;
+    height: 293px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.kvadrat {
+    width: 100px;
+    height: 100px;
+    border: 3px solid navy;
+    border-radius: 7px;
+}
+
+
+.treci {
+    height: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(163, 166, 173);
+}
+
+blockquote div {
+    width: 500px;
+    height: 130px;
+}
+
+blockquote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid violet;
+    height: 300px;
+    font-style: italic;
+    font-size: 1.3rem;
+}
+
+.treci cite {
+    font-weight: bold;
+    text-align: right;
+    display: block;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.cetvrti {
+    height: 280px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plavi {
+    height: 130px;
+    width: 650px;
+    background-color: rgb(57, 136, 238);
+    color: white;
+    border-radius: 7px;
+    display: flex;
+    border: 1px solid orange;
+}
+
+.plaviLevo {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 40px;
+}
+
+.plaviDesno {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.peti {
+    height: 80px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(13, 19, 39);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
